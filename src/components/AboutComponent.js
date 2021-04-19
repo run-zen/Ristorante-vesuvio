@@ -7,7 +7,6 @@ const About = () => {
                 <div className="row-content"></div>
                 <h1>This is About component</h1>
             </div>
-            >
         </div>
     );
 };

@@ -19,7 +19,7 @@ nav {
     margin-top: 0px;
 }
 .navbar-light {
-    background-color: #3d0300;
+    background-color: #000000;
 }
 
 .nav-item {
@@ -30,6 +30,7 @@ nav {
     text-decoration: none;
     color: white;
     font-size: 25px;
+    font-weight: 250;
 }
 
 .nav-item:hover {
@@ -38,12 +39,40 @@ nav {
 }
 
 footer {
-    margin-top: 120vh;
+    padding-top: 10px;
+    margin-top: 5vh;
     background-color: rgb(17, 13, 29);
     color: white;
     text-align: center;
+    height: 100px;
 }
 
 .row-content {
     margin-top: 11vh;
+}
+
+.row-header {
+    margin-top: 3vh;
+}
+
+.ContactHeader {
+    margin-top: 10vh;
+    background-image: url("./img/42_1_contact-us.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 95vh;
+}
+
+.pageTitle {
+    margin-top: 32vh;
+    text-align: center;
+    font-size: 5rem;
+    color: aliceblue;
+    text-shadow: 4px 4px 6px black;
+}
+
+.gap {
+    height: 4vh;
 }

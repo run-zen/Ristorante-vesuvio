@@ -4,6 +4,8 @@ import { BrowserRouter } from "react-router-dom";
 
 // CSS
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap-social/bootstrap-social.css";
+import "../node_modules/font-awesome/css/font-awesome.css";
 import "./index.css";
 
 // Components
