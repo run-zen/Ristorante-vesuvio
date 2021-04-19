@@ -2,9 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import $ from "jquery";
 
-$(".navbar-collapse a").click(function () {
-    $(".navbar-collapse").collapse("hide");
-});
+function hide() {
+    document.documentElement.scrollTop = 0;
+    return $(".navbar-collapse a").click(function () {
+        $(".navbar-collapse").collapse("hide");
+    });
+}
 
 function Header() {
     return (
@@ -25,16 +28,24 @@ function Header() {
                     <div className="collapse navbar-collapse" id="myNav">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <NavLink to="/home">Home</NavLink>
+                                <NavLink to="/home" onClick={hide}>
+                                    Home
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/about">About</NavLink>
+                                <NavLink to="about" onClick={hide}>
+                                    About
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/events">Events</NavLink>
+                                <NavLink to="/events" onClick={hide}>
+                                    Events
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/contact">Contact</NavLink>
+                                <NavLink to="/contact" onClick={hide}>
+                                    Contact
+                                </NavLink>
                             </li>
                         </ul>
                     </div>

@@ -25,7 +25,7 @@ code {
         monospace;
 }
 nav {
-    height: 10vh;
+    height: 13vh;
 }
 .navbar {
     width: 100vw;
@@ -39,6 +39,8 @@ nav {
 }
 .nav-item {
     margin-left: 4vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .nav-item a {
@@ -58,7 +60,7 @@ footer {
 }
 
 .row-content {
-    margin-top: 11vh;
+    margin-top: 14vh;
 }
 
 .row-header {
@@ -84,5 +86,52 @@ footer {
 }
 
 .gap {
-    height: 4vh;
+    height: 6vh;
+}
+
+hr {
+    border: 3px solid black;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.eventsHeader {
+    margin-top: 10vh;
+    background-image: url("./img/https___specials-images.forbesimg.com_imageserve_5e4c0c1999d44900073534e8_0x0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+}
+
+.eventsPara p {
+    font-size: 18px;
+    font-weight: 350;
+}
+.eventtext {
+    margin-top: 3vh;
+}
+
+.eventtext h1 {
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+
+.eventtext p {
+    margin-left: 2vw;
+    font-size: 18px;
+    font-weight: 350;
+}
+.event {
+    margin-top: 6vh;
+}
+.event img {
+    width: 100%;
+    max-height: 95%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5), 5px 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.customTeam {
+    text-align: center;
 }

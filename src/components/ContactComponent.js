@@ -1,4 +1,7 @@
 import React from "react";
+import Breadlink from "./BreadCrumbComponent";
+
+const links = ["home", "contact"];
 
 function Contact() {
     return (
@@ -15,7 +18,11 @@ function Contact() {
             <div className="container">
                 <div className="row row-header">
                     <div className="col-12">
+                        <Breadlink Links={links} />
+                    </div>
+                    <div className="col-12">
                         <h1>Contact us</h1>
+                        <hr />
                     </div>
                     <div className="gap col-12"></div>
                 </div>
