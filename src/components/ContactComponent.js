@@ -34,7 +34,11 @@ function Contact() {
                             <i class="fa fa-fax"></i>: +852 8765 4321
                             <br />
                             <i class="fa fa-envelope"></i>:
-                            <a href="mailto:vesuvio@food.net" target="_blank">
+                            <a
+                                href="mailto:ranjanbaruah1101@gmail.com"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
                                 vesuvio@food.net
                             </a>
                         </address>
@@ -187,9 +191,10 @@ function Contact() {
                                         />
                                         <label for="privacypolicy">
                                             <a
-                                                href="#"
+                                                href="https://google.com"
                                                 class="customLink"
                                                 target="_blank"
+                                                rel="noreferrer"
                                             >
                                                 I accept the privacy policy
                                             </a>
