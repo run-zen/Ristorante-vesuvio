@@ -10,13 +10,13 @@ import "./index.css";
 import App from "./App";
 
 function Main() {
-  return (
-    <BrowserRouter>
-      <div>
-        <App />
-      </div>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <div>
+                <App />
+            </div>
+        </BrowserRouter>
+    );
 }
 
 ReactDOM.render(<Main />, document.getElementById("root"));

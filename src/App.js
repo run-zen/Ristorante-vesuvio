@@ -10,19 +10,19 @@ import Contact from "./components/ContactComponent";
 import Events from "./components/EventsComponent";
 
 function App() {
-  return (
-    <React.Fragment>
-      <Header />
-      <Switch>
-        <Route path="/home" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/events" component={Events} />
-        <Route exact path="/contact" component={Contact} />
-        <Redirect to="/home"></Redirect>
-      </Switch>
-      <Footer />
-    </React.Fragment>
-  );
+    return (
+        <React.Fragment>
+            <Header />
+            <Switch>
+                <Route path="/home" component={Home} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/events" component={Events} />
+                <Route exact path="/contact" component={Contact} />
+                <Redirect to="/home"></Redirect>
+            </Switch>
+            <Footer />
+        </React.Fragment>
+    );
 }
 
 export default App;
