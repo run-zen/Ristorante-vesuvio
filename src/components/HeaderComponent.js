@@ -6,11 +6,6 @@ function Header() {
     <div>
       <nav className="navbar navbar-expand navbar-light bg-light">
         <div className="container">
-          <div className="navbar-header">
-            <a href="#" className="navbar-brand">
-              Website
-            </a>
-          </div>
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
