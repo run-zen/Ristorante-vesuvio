@@ -3,12 +3,60 @@
         transform: scale(1.06);
         transition-duration: 0.6s;
     }
+    .carousel {
+        width: 93vw;
+        height: 40vh;
+        margin-right: 5px;
+    }
+
+    .carousel .carousel-item {
+        width: 93vw;
+        height: 40vh;
+    }
+    .title {
+        font-size: 10vw;
+    }
+    .nav-item {
+        height: 8vh;
+        width: 80vw;
+    }
+    .nav-item .selected {
+        color: rgba(255, 255, 255, 1);
+        font-size: 35px;
+        font-weight: 400;
+        text-shadow: 1px 1px 10px rgb(190, 190, 190);
+    }
 }
 
 @media screen and (min-width: 771px) {
     .nav-item:hover {
-        transform: scale(1.5);
+        transform: scale(1.4);
         transition-duration: 0.6s;
+    }
+    .event img:hover {
+        transform: scale(1.2);
+        transition-duration: 0.4s;
+    }
+    .carousel {
+        width: 73vw;
+        height: 60vh;
+    }
+
+    .carousel .carousel-item {
+        width: 73vw;
+        height: 60vh;
+    }
+    .title {
+        font-size: 5vw;
+    }
+    .nav-item {
+        height: 60px;
+        width: 8vw;
+    }
+    .nav-item .selected {
+        color: rgba(255, 255, 255, 1);
+        font-weight: 450;
+        text-shadow: 1px 1px 10px rgb(190, 190, 190);
     }
 }
 body {
@@ -36,18 +84,24 @@ nav {
 }
 .navbar-collapse {
     background-color: #000000;
+    border-radius: 5px;
+    width: 80vw;
 }
 .nav-item {
     margin-left: 4vw;
     margin-top: 1vh;
     margin-bottom: 1vh;
+    border-radius: 3px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .nav-item a {
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 25px;
-    font-weight: 250;
+    font-weight: 300;
+    text-align: center;
 }
 
 footer {
@@ -134,4 +188,33 @@ hr {
 
 .customTeam {
     text-align: center;
+}
+
+.carousel-item img {
+    width: 49%;
+    height: 100%;
+}
+
+.carousel-caption {
+    text-shadow: 2px 2px 10px black;
+}
+
+.carousel-caption:hover {
+    transform: scale(1.4);
+    transition-duration: 0.4s;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.mainHome {
+    margin-top: 10vh;
+    width: 100vw;
+    height: 99vh;
+    background-image: url("./img/white-concrete-wall_53876-92803.jpg");
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.1);
 }

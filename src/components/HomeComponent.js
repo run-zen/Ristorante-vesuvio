@@ -1,11 +1,22 @@
 import React from "react";
+import MyCarousel from "./MyCarousel";
 
 function Home() {
     return (
         <div>
-            <div className="container">
-                <div className="row-content"></div>
-                <h1>This is home component</h1>
+            <div className="mainHome">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="title">
+                                'Vesuvio <small>roman cuisine</small>
+                            </div>
+                        </div>
+                        <div className="col-12">
+                            <MyCarousel />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

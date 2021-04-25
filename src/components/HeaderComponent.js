@@ -28,22 +28,38 @@ function Header() {
                     <div className="collapse navbar-collapse" id="myNav">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <NavLink to="/home" onClick={hide}>
+                                <NavLink
+                                    activeClassName="selected"
+                                    to="/home"
+                                    onClick={hide}
+                                >
                                     Home
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="about" onClick={hide}>
+                                <NavLink
+                                    activeClassName="selected"
+                                    to="about"
+                                    onClick={hide}
+                                >
                                     About
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/events" onClick={hide}>
+                                <NavLink
+                                    activeClassName="selected"
+                                    to="/events"
+                                    onClick={hide}
+                                >
                                     Events
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/contact" onClick={hide}>
+                                <NavLink
+                                    activeClassName="selected"
+                                    to="/contact"
+                                    onClick={hide}
+                                >
                                     Contact
                                 </NavLink>
                             </li>
