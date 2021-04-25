@@ -31,7 +31,7 @@ const About = () => {
             <Header />
             <div className="container">
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-12" style={{ marginTop: "3vh" }}>
                         <Breaklink Links={links} />
                     </div>
                     <div className="col-12">
