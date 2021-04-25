@@ -1,0 +1,14 @@
+export const AboutItems = {
+    OurHistory: [
+        "Vesuvio takes shape in the spaces that once belonged to a historic Roman restaurant: the Passetto (1860-2018) and, for this reason, the new project required careful consideration: the main objective is not to distort but 'clean' from the many different managements while preserving the suggestiveness of the place.",
+        "Alessandra Marino with her architecture studio decides to focus on colors by making them “turn” around old furnishings, poor and noble in equal measure. The walls are daring with new colors and mark the different rooms.",
+        "Entering from Piazza S. Apollinare, the customer is greeted by the Corallo room, which takes its name from the color of the boiserie and which joins, without architectural interruptions, to the Bella Epoque room where pink and gold make the walls precious, and the velvets of the sofas are played on pastel tones. Continue in the Cucchi room: the name is a recognition of Enzo Cucchi's painting 7 meters long and 2 meters high, and the shades of gray alternate with pink and brick.",
+        "Entering from via Zanardelli instead, the Picasso room will welcome customers (the name comes from the large poster of 1953 on the artist's exhibition at Palazzo Reale in Milan), characterized by a gigantic mirror 7 meters long and 3 meters high which reflects the large windows , and an ancient mosaic with soft colors. A small passage leads to the space dedicated to the pizza oven, here the walls around the tables are divided in half between the China red and the petrol blue, until they become covered with candid white majolica in the space dedicated to the oven. In this room the customer peeks at the pizza chef's work but can also buy Italian food specialties for sale.",
+    ],
+    OurStructure: [
+        "In the structure of about 500 square meters, few radical interventions compared to the old restaurant, such as the cocktail bar that in the new project overlooks the outdoor area of Piazza S. Apollinare, and serves indoors and outdoors at the same time.",
+        "Respected, but restored, the iron and wooden fixtures that enter the room creating compasses, as well as the old Palladian and the boiserie, which today interact with the pastel velvets of the sofas in the cocktail bar, the black iron tables, the French chairs intertwined, lightly colored vases and then contemporary art: author's photographs, old paintings and many important and unimportant objects, collected over the years by the owner.",
+        "The lighting has a contemporary touch, the teardrop crystal chandeliers disappear to make room for the Akari Light Sculptures designed by the designer Isamu Noguchi in 1951 and the Potence Pivotante by Charlotte Perriand.",
+    ],
+    image: "/assets/img/tavolini-esterni-ristorante.jpg",
+};

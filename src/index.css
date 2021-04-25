@@ -18,7 +18,7 @@
     }
     .nav-item {
         height: 8vh;
-        width: 80vw;
+        width: 70vw;
     }
     .nav-item .selected {
         color: rgba(255, 255, 255, 1);
@@ -55,7 +55,7 @@
     }
     .nav-item .selected {
         color: rgba(255, 255, 255, 1);
-        font-weight: 450;
+        font-weight: 500;
         text-shadow: 1px 1px 10px rgb(190, 190, 190);
     }
 }
@@ -85,7 +85,6 @@ nav {
 .navbar-collapse {
     background-color: #000000;
     border-radius: 5px;
-    width: 80vw;
 }
 .nav-item {
     margin-left: 4vw;
@@ -105,14 +104,39 @@ nav {
 }
 
 footer {
-    padding-top: 10px;
-    margin-top: 5vh;
+    padding-top: 20px;
     background-color: rgb(17, 13, 29);
     color: white;
     text-align: center;
     height: 100px;
 }
+.social-links {
+    background-color: rgb(7, 0, 29);
+    color: white;
+}
 
+.social-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.fa {
+    font-size: 30px;
+    margin-bottom: 3vh;
+}
+.social-fonts {
+    text-align: center;
+}
+.social-fonts a {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.social-fonts a i:hover {
+    transform: scale(1.6);
+    transition-duration: 0.5s;
+}
 .row-content {
     margin-top: 14vh;
 }
@@ -134,7 +158,7 @@ footer {
 .pageTitle {
     margin-top: 32vh;
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     color: aliceblue;
     text-shadow: 4px 4px 6px black;
 }
@@ -212,9 +236,31 @@ hr {
 
 .mainHome {
     margin-top: 10vh;
-    width: 100vw;
     height: 99vh;
     background-image: url("./img/white-concrete-wall_53876-92803.jpg");
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+    height: 90vh;
+    margin-top: 10vh;
+    padding-top: 35vh;
+    text-align: center;
+    background-image: url("./img/main_about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-shadow: 3px 3px 8px black;
+}
+
+.history-img {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.history-img img {
+    width: 100%;
 }
