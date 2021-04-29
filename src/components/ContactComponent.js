@@ -1,4 +1,5 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 import Breadlink from "./BreadCrumbComponent";
 
 const links = ["home", "contact"];
@@ -10,7 +11,9 @@ function Contact() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <div className="pageTitle">Write or call us</div>
+                            <div className="pageTitle">
+                                <Zoom>Write or call us</Zoom>
+                            </div>
                         </div>
                     </div>
                 </div>

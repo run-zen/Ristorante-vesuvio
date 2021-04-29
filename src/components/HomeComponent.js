@@ -1,4 +1,5 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 import MyCarousel from "./MyCarousel";
 
 function Home() {
@@ -8,9 +9,11 @@ function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <div className="title">
-                                'Vesuvio <small>roman cuisine</small>
-                            </div>
+                            <Zoom>
+                                <div className="title">
+                                    'Vesuvio <small>roman cuisine</small>
+                                </div>
+                            </Zoom>
                         </div>
                         <div className="col-12">
                             <MyCarousel />

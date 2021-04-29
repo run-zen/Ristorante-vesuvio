@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Zoom } from "react-reveal";
 import Breaklink from "./BreadCrumbComponent";
 import { AboutItems } from "../shared/AboutItems";
 
@@ -16,7 +16,9 @@ const Header = () => {
     return (
         <div>
             <div className="about-header">
-                <div style={{ fontSize: "4rem" }}>Always with Passion</div>
+                <div style={{ fontSize: "4rem" }}>
+                    <Zoom>Always with Passion</Zoom>
+                </div>
             </div>
         </div>
     );

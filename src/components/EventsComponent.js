@@ -1,4 +1,5 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 import { Events } from "../shared/Events";
 import Breadlink from "./BreadCrumbComponent";
 
@@ -7,14 +8,18 @@ const links = ["home", "events"];
 function renderEvent(data) {
     return (
         <React.Fragment>
-            <div class="col-12 gap"></div>
-            <div class="col-12 col-lg-6 event">
-                <img src={data.image} alt={data.alt} />
+            <div className="col-12 gap"></div>
+            <div className="col-12 col-lg-6 event">
+                <Zoom>
+                    <img id="eventImg" src={data.image} alt={data.alt} />
+                </Zoom>
             </div>
-            <div class="col-12 col-lg-6 eventtext">
-                <h1>{data.title}</h1>
-                <p>{data.p1}</p>
-                <p>{data.p2}</p>
+            <div className="col-12 col-lg-6 eventtext">
+                <Zoom>
+                    <h1>{data.title}</h1>
+                    <p>{data.p1}</p>
+                    <p>{data.p2}</p>
+                </Zoom>
             </div>
         </React.Fragment>
     );
@@ -35,10 +40,12 @@ const CustomTeam = () => {
         <div>
             <div className="col-12 gap"></div>
             <div className="col-12 customTeam">
-                <h1>Custom Team Building</h1>
-                <p style={{ fontSize: "18px", fontWeight: "350" }}>
-                    {Events.customTeamBuilding.p1}
-                </p>
+                <Zoom>
+                    <h1>Custom Team Building</h1>
+                    <p style={{ fontSize: "18px", fontWeight: "350" }}>
+                        {Events.customTeamBuilding.p1}
+                    </p>
+                </Zoom>
             </div>
         </div>
     );
@@ -52,7 +59,7 @@ function TeamBuilding() {
                     <div className="row">
                         <div className="col-12">
                             <div className="pageTitle">
-                                The 'Taste of Team Building
+                                <Zoom>The 'Taste of Team Building</Zoom>
                             </div>
                         </div>
                     </div>
