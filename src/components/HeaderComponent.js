@@ -8,7 +8,7 @@ function Header() {
         $(".navbar-collapse a").click(function () {
             $(".navbar-collapse").collapse("hide");
         });
-    });
+    }, []);
 
     return (
         <div>
