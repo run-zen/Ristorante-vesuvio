@@ -1,15 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import $ from "jquery";
 
-function hide() {
-    document.documentElement.scrollTop = 0;
-    return $(".navbar-collapse a").click(function () {
-        $(".navbar-collapse").collapse("hide");
-    });
-}
-
 function Header() {
+    useEffect(() => {
+        document.documentElement.scrollTop = 0;
+        $(".navbar-collapse a").click(function () {
+            $(".navbar-collapse").collapse("hide");
+        });
+    });
+
     return (
         <div>
             <nav className="navbar fixed-top navbar-expand-md navbar-dark">
@@ -28,20 +28,12 @@ function Header() {
                     <div className="collapse navbar-collapse" id="myNav">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <NavLink
-                                    activeClassName="selected"
-                                    to="/home"
-                                    onClick={hide}
-                                >
+                                <NavLink activeClassName="selected" to="/home">
                                     Home
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink
-                                    activeClassName="selected"
-                                    to="about"
-                                    onClick={hide}
-                                >
+                                <NavLink activeClassName="selected" to="about">
                                     About
                                 </NavLink>
                             </li>
@@ -49,7 +41,6 @@ function Header() {
                                 <NavLink
                                     activeClassName="selected"
                                     to="/events"
-                                    onClick={hide}
                                 >
                                     Events
                                 </NavLink>
@@ -58,7 +49,6 @@ function Header() {
                                 <NavLink
                                     activeClassName="selected"
                                     to="/contact"
-                                    onClick={hide}
                                 >
                                     Contact
                                 </NavLink>
