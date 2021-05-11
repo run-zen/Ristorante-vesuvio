@@ -4,10 +4,14 @@ import $ from "jquery";
 
 function Header() {
     useEffect(() => {
-        document.documentElement.scrollTop = 0;
         $(".navbar-collapse a").click(function () {
             $(".navbar-collapse").collapse("hide");
+            $("html,body").animate({ scrollTop: 0 }, "slow");
         });
+        // $("a[href='#top']").click(function () {
+        //     $("html, body").animate({ scrollTop: 0 }, "slow");
+        //     return false;
+        // });
     }, []);
 
     return (
