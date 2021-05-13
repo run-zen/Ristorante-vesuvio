@@ -8,14 +8,14 @@ function Home() {
             <div className="mainHome">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
+                        <div className="col-12 hometitle">
                             <Zoom>
                                 <div className="title">
                                     'Vesuvio <small>roman cuisine</small>
                                 </div>
                             </Zoom>
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 carouselGrid">
                             <MyCarousel />
                         </div>
                     </div>

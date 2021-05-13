@@ -1,8 +1,8 @@
 export const HomeDetails = {
     carousal: [
         {
-            img1: "/assets/img/cacio-e-pepe-osteria-900x1260.jpg",
-            img2: "/assets/img/DSC00410-e1485955232162-900x615.jpg",
+            img1: "/assets/img/roman_pasta.jpg",
+            img2: "/assets/img/meatballs-tomato-sauce.jpg",
             title: "True Roman Cuisine",
             description:
                 "The dishes of traditional Roman cuisine that we all know have always been on the 'Vesuvio menu.",
