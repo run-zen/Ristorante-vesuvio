@@ -97,6 +97,13 @@
         width: 100%;
         height: 50vh;
     }
+    /* .carousel-control-prev-icon:hover,.carousel-control-next-icon:hover {
+          
+    } */
+    .carousel-control-prev:hover,.carousel-control-next:hover {
+        transform: scale(2);
+        transition-duration: 1s;
+    }
     .title {
         font-size: 5vw;
     }
